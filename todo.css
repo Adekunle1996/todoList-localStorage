@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: lightblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width:25px;
+    height: 25px;
+    margin-left:5px;
+}
+h1, .date{
+    text-align: center;
+}
+.date{
+    font-size: 15px;
+    text-align: center;
+    color:skyblue;
+}
+
+.todo-App{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 80%;
+    background-color:#eee ;
+    min-height: 60vh;
+    border-radius: 15px;;
+}
+.update-controller{
+    display:none;
+}
+
+.todo-input-header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.item, .enter{
+    appearance: none;
+    border: none;
+    outline: none;
+    height:30px;
+    border-radius:10px;
+    margin: 3px;
+    padding: 10px;
+}
+.item::placeholder{
+    color:#374151;
+}
+.item{
+    flex:1 1 0%;
+}
+.enter{
+    background-color: lightblue;
+    color: #374151;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+.to-do-list{
+    width:100%;
+}
+.input-controller{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(173, 216, 230, 0.642);
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+ .textarea{
+    flex:1 1 0%;
+ }
+.textarea,.editBtn, .deleteBtn, .saveBtn, .cancelBtn{
+    margin:3px;
+    outline: none;
+    border: none;
+    height:30px ;
+    padding:10px;
+    border-radius:10px;
+}
+.editBtn{
+    background-color:lightblue ;
+    font-size: 12px;
+}
+.deleteBtn{
+    background-color: pink;
+    font-size: 12px;
+}
+.saveBtn{
+    background-color:lightblue ;
+    font-size: 12px;
+}
+.cancelBtn{
+    background-color: pink;
+    font-size: 12px;
+}
