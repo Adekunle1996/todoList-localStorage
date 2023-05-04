@@ -81,6 +81,8 @@ h1, .date{
 }
  .textarea{
     flex:1 1 0%;
+    resize: none;
+    overflow: hidden;
  }
 .textarea,.editBtn, .deleteBtn, .saveBtn, .cancelBtn{
     margin:3px;
